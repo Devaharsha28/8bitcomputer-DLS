@@ -1,0 +1,100 @@
+{
+  "DLSVersion": "2.1.6",
+  "Name": "NOT",
+  "NameLocation": 0,
+  "ChipType": 0,
+  "Size": {
+    "x": 0.575,
+    "y": 0.375
+  },
+  "Colour": {
+    "r": 0.567533,
+    "g": 0.227912769,
+    "b": 0.5221516,
+    "a": 1
+  },
+  "InputPins":[
+    {
+      "Name":"IN",
+      "ID":1606465985,
+      "Position":{
+        "x":-5.375,
+        "y":0.5625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "OutputPins":[
+    {
+      "Name":"OUT",
+      "ID":1833432042,
+      "Position":{
+        "x":-2.0,
+        "y":0.5625
+      },
+      "BitCount":1,
+      "Colour":0,
+      "ValueDisplayMode":0
+    }
+  ],
+  "SubChips":[
+    {
+      "Name":"NAND",
+      "ID":1355374553,
+      "Label":"",
+      "Position":{
+        "x":-3.56671,
+        "y":0.57644
+      },
+      "OutputPinColourInfo":[{"PinColour":0,"PinID":2}],
+      "InternalData":null
+    }
+  ],
+  "Wires":[
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1606465985
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1355374553
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":-4.1875,"y":0.5625},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":0,
+        "PinOwnerID":1606465985
+      },
+      "TargetPinAddress":{
+        "PinID":1,
+        "PinOwnerID":1355374553
+      },
+      "ConnectionType":1,
+      "ConnectedWireIndex":0,
+      "ConnectedWireSegmentIndex":0,
+      "Points":[{"x":-4.1875,"y":0.5625},{"x":0.0,"y":0.0}]
+    },
+    {
+      "SourcePinAddress":{
+        "PinID":2,
+        "PinOwnerID":1355374553
+      },
+      "TargetPinAddress":{
+        "PinID":0,
+        "PinOwnerID":1833432042
+      },
+      "ConnectionType":0,
+      "ConnectedWireIndex":-1,
+      "ConnectedWireSegmentIndex":-1,
+      "Points":[{"x":0.0,"y":0.0},{"x":0.0,"y":0.0}]
+    }
+  ],
+  "Displays": null
+}

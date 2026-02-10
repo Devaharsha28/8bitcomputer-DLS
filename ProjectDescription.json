@@ -1,0 +1,152 @@
+{
+  "ProjectName": "8bitcomputer",
+  "DLSVersion_LastSaved": "2.1.6",
+  "DLSVersion_EarliestCompatible": "2.0.0",
+  "CreationTime": "2026-01-25T21:34:07.117+05:30",
+  "LastSaveTime": "2026-02-10T23:27:18.151+05:30",
+  "Prefs_MainPinNamesDisplayMode": 2,
+  "Prefs_ChipPinNamesDisplayMode": 1,
+  "Prefs_GridDisplayMode": 0,
+  "Prefs_Snapping": 0,
+  "Prefs_StraightWires": 1,
+  "Prefs_SimPaused": false,
+  "Prefs_SimTargetStepsPerSecond": 10000,
+  "Prefs_SimStepsPerClockTick": 250,
+  "AllCustomChipNames":[
+    "AND",
+    "OR",
+    "NOT",
+    "NOR",
+    "XOR",
+    "XNOR",
+    "SR LATCH",
+    "SR FF",
+    "JK FF",
+    "D FF",
+    "T FF",
+    "RISE EDGE DETECTOR",
+    "C1",
+    "8BCOUNTER-IB",
+    "8B-COUNTER",
+    "2-4DEMUX",
+    "3i-AND",
+    "4-16 DEMUX",
+    "8d-ff",
+    "register",
+    "GPRs",
+    "4-1mux-no-enable",
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "14or",
+    "7segdisplay",
+    "16or",
+    "a",
+    "b",
+    "c",
+    "d",
+    "e",
+    "f",
+    "7seg-driver-hex"
+  ],
+  "StarredList":[
+    {
+      "Name":"IN",
+      "IsCollection":true
+    },
+    {
+      "Name":"OUT",
+      "IsCollection":true
+    },
+    {
+      "Name":"GATES",
+      "IsCollection":true
+    },
+    {
+      "Name":"FF",
+      "IsCollection":true
+    },
+    {
+      "Name":"MEMORY",
+      "IsCollection":true
+    },
+    {
+      "Name":"7segdisp",
+      "IsCollection":true
+    }
+  ],
+  "ChipCollections":[
+    {
+      "Chips":["CLOCK","PULSE","KEY"],
+      "IsToggledOpen":false,
+      "Name":"BASIC"
+    },
+    {
+      "Chips":["1-4BIT","1-8BIT","4-8BIT","4-1BIT","8-4BIT","8-1BIT"],
+      "IsToggledOpen":false,
+      "Name":"MERGE/SPLIT"
+    },
+    {
+      "Chips":["BUS-1","BUS-4","BUS-8"],
+      "IsToggledOpen":false,
+      "Name":"BUS"
+    },
+    {
+      "Chips":["DOT DISPLAY","RGB DISPLAY","LED"],
+      "IsToggledOpen":false,
+      "Name":"DISPLAY"
+    },
+    {
+      "Chips":["ROM 256×16","GPRs","register","8d-ff"],
+      "IsToggledOpen":false,
+      "Name":"MEMORY"
+    },
+    {
+      "Chips":["BUZZER","RISE EDGE DETECTOR"],
+      "IsToggledOpen":false,
+      "Name":"OTHER"
+    },
+    {
+      "Chips":["SR FF","JK FF","D FF","T FF","SR LATCH"],
+      "IsToggledOpen":false,
+      "Name":"FF"
+    },
+    {
+      "Chips":["AND","OR","NOT","NAND","NOR","XOR","XNOR","3i-AND","14or","16or","3-STATE BUFFER"],
+      "IsToggledOpen":false,
+      "Name":"GATES"
+    },
+    {
+      "Chips":["IN-1","IN-4","IN-8"],
+      "IsToggledOpen":false,
+      "Name":"IN"
+    },
+    {
+      "Chips":["OUT-1","OUT-4","OUT-8"],
+      "IsToggledOpen":false,
+      "Name":"OUT"
+    },
+    {
+      "Chips":["f","e","d","c","b","a","0","1","2","3","4","5","6","7","8","9","7-SEGMENT","7segdisplay","7seg-driver-hex"],
+      "IsToggledOpen":false,
+      "Name":"7segdisp"
+    },
+    {
+      "Chips":["2-4DEMUX","4-16 DEMUX","4-1mux-no-enable"],
+      "IsToggledOpen":false,
+      "Name":"mux/demux"
+    },
+    {
+      "Chips":["C1","8BCOUNTER-IB","8B-COUNTER"],
+      "IsToggledOpen":false,
+      "Name":"COUNTER"
+    }
+  ]
+}
