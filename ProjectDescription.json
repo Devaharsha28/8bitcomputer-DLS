@@ -3,14 +3,14 @@
   "DLSVersion_LastSaved": "2.1.6",
   "DLSVersion_EarliestCompatible": "2.0.0",
   "CreationTime": "2026-01-25T21:34:07.117+05:30",
-  "LastSaveTime": "2026-02-10T23:27:18.151+05:30",
+  "LastSaveTime": "2026-02-25T23:33:18.271+05:30",
   "Prefs_MainPinNamesDisplayMode": 2,
-  "Prefs_ChipPinNamesDisplayMode": 1,
-  "Prefs_GridDisplayMode": 0,
-  "Prefs_Snapping": 0,
-  "Prefs_StraightWires": 1,
+  "Prefs_ChipPinNamesDisplayMode": 2,
+  "Prefs_GridDisplayMode": 1,
+  "Prefs_Snapping": 2,
+  "Prefs_StraightWires": 2,
   "Prefs_SimPaused": false,
-  "Prefs_SimTargetStepsPerSecond": 10000,
+  "Prefs_SimTargetStepsPerSecond": 1000,
   "Prefs_SimStepsPerClockTick": 250,
   "AllCustomChipNames":[
     "AND",
@@ -54,7 +54,26 @@
     "d",
     "e",
     "f",
-    "7seg-driver-hex"
+    "7seg-driver-hex",
+    "half-adder",
+    "full adder",
+    "8b adder",
+    "complementer",
+    "Arithmetic Unit",
+    "8b 3statebuffer",
+    "isZero",
+    "16and",
+    "16xor",
+    "Logic Unit",
+    "ALU",
+    "one",
+    "exp2",
+    "idk",
+    "5-32 mux",
+    "6-64 mux",
+    "PROGRAM COUNTER",
+    "jmp func pc",
+    "test"
   ],
   "StarredList":[
     {
@@ -80,6 +99,22 @@
     {
       "Name":"7segdisp",
       "IsCollection":true
+    },
+    {
+      "Name":"OTHER",
+      "IsCollection":true
+    },
+    {
+      "Name":"ALU",
+      "IsCollection":false
+    },
+    {
+      "Name":"PROGRAM COUNTER",
+      "IsCollection":false
+    },
+    {
+      "Name":"8-1BIT",
+      "IsCollection":false
     }
   ],
   "ChipCollections":[
@@ -109,8 +144,8 @@
       "Name":"MEMORY"
     },
     {
-      "Chips":["BUZZER","RISE EDGE DETECTOR"],
-      "IsToggledOpen":false,
+      "Chips":["BUZZER","RISE EDGE DETECTOR","half-adder","full adder","8b adder","complementer","Arithmetic unit","8b 3statebuffer","isZero","16and","16xor","Logic Unit","ALU","one","exp2","idk","5-32 mux","6-64 mux","PROGRAM COUNTER","jmp func pc","test"],
+      "IsToggledOpen":true,
       "Name":"OTHER"
     },
     {
