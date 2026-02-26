@@ -1,16 +1,11 @@
 # 8-Bit Computer Specifications
 
 ## Architecture
-- **Harvard Architecture**: Separate memory spaces for program instructions and data, allowing simultaneous access to both.
+ **Minimal Instruction Set Computing (MISC)**: The CPU is designed with a minimal instruction set, currently supporting **22 instructions** for efficient operation.
 
 ## Functionality
-- Inspired by microcontroller design, providing programmable control, arithmetic operations, and input/output capabilities.
 
 ## Data Paths
-- **8-bit Data Bus**: Transfers data between the CPU, memory, and peripherals.
-- **8-bit Address Bus**: Addresses up to 256 bytes of memory.
+ **Program Memory**: Utilizes a **256x16 ROM** for instruction storage, supporting up to 256 instructions, each 16 bits wide.
 
 ## Additional Features
-- Built using digital logic simulation software.
-- Components range from basic logic gates to complex integrated circuits.
-- Supports basic computing operations including arithmetic, logic, and control flow.

@@ -8,3 +8,6 @@ The project is a step-by-step exploration of digital logic, CPU design, and 8-bi
 
 ## Status
 Work in progress. Stay tuned for updates! 😊
+## Architecture & Features
+This project uses a **Minimal Instruction Set Computing (MISC)** architecture, currently supporting **22 instructions**.
+Program memory is implemented as a **256x16 ROM**, allowing storage of up to 256 instructions, each 16 bits wide.
