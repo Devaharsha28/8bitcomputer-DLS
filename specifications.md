@@ -41,8 +41,6 @@
 
 ## Project Details
  - Built in Digital Logic Sim (DLS) v2.1.6
- - Creation date: 2026-01-25
- - Last saved: 2026-02-25
 
 ## Instruction Set
  - Minimal Instruction Set Computing (MISC) with 22 instructions
